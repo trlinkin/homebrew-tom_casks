@@ -1,4 +1,4 @@
-cask :v1 => 'wkhtmltopdf' do
+cask :v1 => 'wkhtmltopdf-stable' do
   version '0.12.2.1'
 
   sha256 'c2fd9b39182453ba9672f528e7a503928e51bc6a45c3117da06a5193af338d35'
