@@ -3,7 +3,7 @@ cask :v1 => 'wkhtmltopdf-stable' do
 
   sha256 'c2fd9b39182453ba9672f528e7a503928e51bc6a45c3117da06a5193af338d35'
   # bitbucket.org is the official download host per the vendor homepage
-  url "https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-#{version}_osx-cocoa-x86-64.pkg"
+  url "http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_osx-cocoa-x86-64.pkg"
   pkg "wkhtmltox-#{version}_osx-cocoa-x86-64.pkg"
 
   name 'wkhtmltopdf'
